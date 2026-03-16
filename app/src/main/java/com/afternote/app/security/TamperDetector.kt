@@ -205,13 +205,13 @@ class TamperDetector @Inject constructor() {
                 context.packageManager.getPackageInfo(
                     context.packageName,
                     PackageManager.GET_SIGNING_CERTIFICATES)
-                    .signingInfo.apkContentsSigners.first()
+                    .signingInfo?.apkContentsSigners?.firstOrNull()
             } else {
                 @Suppress("DEPRECATION")
                 context.packageManager.getPackageInfo(
                     context.packageName,
                     PackageManager.GET_SIGNATURES)
-                    .signatures.first()
+                    .signatures?.firstOrNull()
             }
             val actualHash = java.security.MessageDigest
                 .getInstance("SHA-256")
