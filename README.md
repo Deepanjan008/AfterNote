@@ -1,1 +1,22 @@
-# Project: AfterNote
+AfterNote
+
+A simple yet powerful Android note-taking app built with Kotlin.           Designed to help you capture thoughts quickly — even after your screen tur>
+
+## Features (Coming Soon / In Progress)
+- Quick note creation from anywhere
+- Reminders & pop-ups post-screen lock/off
+- Offline storage with clean UI
+- Material You design (light/dark mode support)
+
+## Getting Started
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Deepanjan008/AfterNote.git
+
+
+
+
+
+
+
+
