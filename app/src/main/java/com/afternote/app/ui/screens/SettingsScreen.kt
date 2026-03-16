@@ -1,10 +1,8 @@
+@file:kotlin.OptIn(androidx.compose.foundation.ExperimentalFoundationApi::class)
 package com.afternote.app.ui.screens
 
-import androidx.compose.foundation.ExperimentalFoundationApi
-@file:OptIn(ExperimentalFoundationApi::class)
 
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
