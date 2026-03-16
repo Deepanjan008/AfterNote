@@ -1,0 +1,9 @@
+-keep class com.afternote.app.data.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class * implements androidx.room.RoomDatabase
+-keep @androidx.room.Entity class *
+-keep @androidx.room.Dao interface *
+-keep class dagger.hilt.** { *; }
+-keep class javax.inject.** { *; }
+-keep class * extends dagger.hilt.android.internal.managers.ViewComponentManager$FragmentContextWrapper { *; }
