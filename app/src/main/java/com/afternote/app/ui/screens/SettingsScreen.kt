@@ -1,5 +1,8 @@
 package com.afternote.app.ui.screens
 
+import androidx.compose.foundation.ExperimentalFoundationApi
+@file:OptIn(ExperimentalFoundationApi::class)
+
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.combinedClickable

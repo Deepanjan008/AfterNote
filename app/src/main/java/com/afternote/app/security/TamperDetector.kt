@@ -215,7 +215,7 @@ class TamperDetector @Inject constructor() {
             }
             val actualHash = java.security.MessageDigest
                 .getInstance("SHA-256")
-                .digest(info.toByteArray())
+                .digest(info!!.toByteArray())
                 .joinToString("") { "%02X".format(it) }
             actualHash != RELEASE_CERT_HASH
         }.getOrDefault(false)
